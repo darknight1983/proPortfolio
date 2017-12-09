@@ -1,0 +1,51 @@
+
+body {
+  font-family: 'Bungee', cursive;
+}
+
+/* Header styles */
+#header {
+  background-color: #000;;
+  color: #FFF;
+  overflow: auto;
+}
+
+#name-logo {
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 20px 15px;
+}
+
+#menu {
+  float: right;
+  margin-top: 24px;
+  margin-right: 55px;
+}
+
+#menu li {
+  display: inline-block;
+  font-size: 1.1em;
+  margin-right: 13px;
+}
+
+#menu li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body {
+  background-color: green;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+      background-color: red;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}
