@@ -35,7 +35,7 @@ body {
             /************* Profile_Image styles *****************/
 
 #img_container {
-  width: 65%;
+  width: 80%;
   margin: 0px auto;
   margin-top: 40px;
 }
@@ -45,6 +45,22 @@ body {
   border-radius: 70px;
 }
 
+         /************* Bio_Section styles *****************/
+
+#bio-content {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#bio-content h2{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+#bio {
+  line-height: 1.5em;
+  word-spacing: 3.5px;
+}
 
 
 
