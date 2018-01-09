@@ -1,0 +1,34 @@
+.demo-layout-transparent {
+  background: url('../images/desktop.jpg') center / cover;
+}
+
+/* .about-me-wide {
+  width: 712px;
+  margin: 20px auto;
+}
+
+.about-me-wide > .mdl-card__title {
+  color: #FFF;
+  height: 176px;
+  background: url('../images/desktop.jpg') center / cover;
+} */
+
+/****** Portfolio Card Styles **************/
+
+.portfolio-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-copy {
+  max-width: 700px;
+}
+
+.no-padding {
+  padding: 0;
+}
