@@ -1,17 +1,11 @@
 .demo-layout-transparent {
-  background: url('../images/desktop.jpg') center / cover;
-}
-
-/* .about-me-wide {
-  width: 712px;
-  margin: 20px auto;
-}
-
-.about-me-wide > .mdl-card__title {
   color: #FFF;
-  height: 176px;
-  background: url('../images/desktop.jpg') center / cover;
-} */
+}
+
+
+html, body {
+  font-family: "Roboto", "Helvetica", sans-serif;
+}
 
 /****** Portfolio Card Styles **************/
 
@@ -31,4 +25,42 @@ img.article-image {
 
 .no-padding {
   padding: 0;
+}
+
+
+
+/***************** Footer Styles **************/
+.social-btn {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-color: transparent; */
+  margin: 0 16px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  opacity: 0.46;
+  border-radius: 2px;
+}
+
+.social-btn__twitter {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png')
+}
+
+.social-btn__facebook {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_24dp.png')
+}
+
+.social-btn__linkedin {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_linkedin_black_24dp.png')
+}
+
+
+
+.mdl-mini-footer {
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding: 40px;
 }
