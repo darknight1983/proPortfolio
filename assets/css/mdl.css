@@ -72,3 +72,18 @@ img.article-image {
   width: 100%;
   height: auto;
 }
+
+
+/*********************Contact Page******************/
+
+.contact-img img {
+  width: 100%;
+  height: auto;
+}
+
+.demo-contact {
+  width: 100%;
+  height: 450px;
+  color: #FFF;
+  background: url('../images/Dallas_Tx.jpg') center no-repeat;
+}
